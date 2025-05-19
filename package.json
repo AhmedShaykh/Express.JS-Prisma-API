@@ -12,7 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/AhmedShaykh/Express.JS-Prisma-API.git"
   },
-  "keywords": [],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AhmedShaykh/Express.JS-Prisma-API/issues"
@@ -29,7 +28,10 @@
     "express-rate-limit": "^7.5.0",
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
+    "netlify-cli": "^21.4.2",
+    "netlify-lambda": "^2.0.16",
     "nodemon": "^3.1.10",
+    "serverless-http": "^3.2.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
     "uuid": "^11.1.0"

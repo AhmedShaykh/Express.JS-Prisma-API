@@ -8,9 +8,9 @@ class NewsController {
 
     static async index(req, res) {
 
-        const page = Number(req.query.page) || 1;
+        let page = Number(req.query.page) || 1;
 
-        const limit = Number(req.query.limit) || 10;
+        let limit = Number(req.query.limit) || 10;
 
         if (page <= 0) {
 

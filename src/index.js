@@ -29,4 +29,10 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 
 app.use("/api", ApiRoutes);
 
-app.listen(PORT, () => console.log(`Server Is Running On PORT ${PORT}`));
+if (process.env.NODE_ENV !== "production") {
+
+    app.listen(PORT, () => console.log(`Server Is Running On PORT ${PORT}`));
+
+}
+
+export default app;
